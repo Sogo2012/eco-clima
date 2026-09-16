@@ -254,9 +254,7 @@ def main():
         st.info(
             body='**Eco | Clima** fue desarrollada por **ECO Consultor** para visualizar y '
             'analizar archivos climáticos EPW como apoyo a nuestros estudios de eficiencia '
-            'energética y confort térmico en edificaciones.\n\nEstá construida sobre la '
-            'librería de código abierto `ladybug-charts`. Puedes ver el código fuente '
-            '[aquí](https://github.com/Sogo2012/eco-clima).'
+            'energética y confort térmico en edificaciones.'
         )
 
         st.header(f'{global_epw.location.city}, {global_epw.location.country}')
